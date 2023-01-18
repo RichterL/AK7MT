@@ -4,10 +4,13 @@
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">Search for a book</string>
     <string name="second_fragment_label">Books found</string>
+    <string name="star_fragment_label">Starred books</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
     <string name="add_book">Find a book</string>
 
     <string name="add_a_new_book">Find a new book</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

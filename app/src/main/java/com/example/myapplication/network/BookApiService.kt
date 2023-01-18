@@ -22,8 +22,12 @@ private val retrofit = Retrofit.Builder()
     .build()
 
 interface BookApiService {
+//    @GET("volumes")
+//    fun getBooks(@Query("q") id: String?): Call<BookList>
+
     @GET("volumes")
-    fun getBooks(@Query("q") id: String?): Call<BookList>
+    suspend fun getBooks(@Query("q") id: String): BookList
+
 }
 
 object BookApi {

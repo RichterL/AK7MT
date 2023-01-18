@@ -27,5 +27,12 @@
         <argument
             android:name="isbn"
             app:argType="string" />
+        <action
+            android:id="@+id/action_SecondFragment_to_starFragment"
+            app:destination="@id/starFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/starFragment"
+        android:name="com.example.myapplication.StarFragment"
+        android:label="@string/star_fragment_label" />
 </navigation>
